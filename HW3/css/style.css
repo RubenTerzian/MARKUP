@@ -1,0 +1,78 @@
+.blockquote {
+    color: green;
+}
+
+/* 2-nd ex */
+
+a[href^='https'] {
+color: red;
+}
+
+li:nth-child(4) {
+    background-color: green;
+}
+
+ul + p {
+    font-size: 26px;
+}
+
+/* 3-rd ex */
+h3:first-child {
+    color: pink;
+}
+
+#greycol{
+    color: gray;
+}
+
+.text-box div p {
+    color: red;
+}
+
+#greycol ~ p{
+    color: green;
+}
+
+.yellow {
+    color: yellow !important ;
+} 
+
+/* 4-th ex */
+.bg-box{
+    height: 500px;
+    background: center / 30% no-repeat url(../Img/Dom.jpg),
+      top / 2% repeat-x url(../Img/Lamp.png),
+       bottom / 13% repeat-x url(../Img/Trava.png),
+       top right / 2% repeat-y url(../Img/Donat.png),
+       green top left/ 2% repeat-y url(../Img/Ezik.png);                     
+}
+
+/* HW3 2-nd ex */
+
+.element{
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: dashed 3px red;
+    background-color: green;
+}
+
+/* HW3 3-nd ex */
+.ex3{
+position: relative;
+clear: both;
+}
+
+.img1{
+    float: left;
+    margin-right: 1%;
+}
+
+.img2{
+    width: 15%;
+    float: right;
+    top: 250px;
+    right:1%;
+    margin: 1% 0 1% 1%;
+}
